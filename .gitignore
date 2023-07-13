@@ -1,0 +1,5 @@
+# globally ignored items
+.DS_Store
+*.Secret.yaml
+*_rsa
+*.pub
