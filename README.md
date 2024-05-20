@@ -49,7 +49,8 @@ podman run -d --name greeting --rm -p 9080:9080 -e GREETINGS=$GREETINGS greeting
 ```
 
 - Image referencing deployed application
-    ![Listing result - local](pics/output_local.png)
+
+![Listing result - local](pics/output_local.png)
 
 ## Run in container on cloud
 
