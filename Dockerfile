@@ -12,7 +12,7 @@ COPY --chown=1001:0 app/src/main/liberty/config/server.xml /config/
 # config dropins
 # COPY --chown=1001:0 config/configDropins/overrides/*.xml /config/configDropins/overrides/
 
-RUN features.sh
+# RUN features.sh
 
 # built app
 COPY --chown=1001:0 app/target/greeting.war /config/apps/
@@ -20,4 +20,4 @@ COPY --chown=1001:0 app/target/greeting.war /config/apps/
 # shared resources
 COPY --chown=1001:0 resources/ /opt/ol/wlp/usr/shared/resources/
 
-RUN configure.sh
+# RUN configure.sh
