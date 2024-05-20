@@ -31,6 +31,8 @@ This repository contains the sample Java application. Below are the instructions
   - Java related packages like `maven` - [download link](https://maven.apache.org/install.html) - **approx. 5min**
   - `podman` installed using terminal / command line - [download link](https://podman.io/docs/installation) - **approx. 5min**
   - `git` installed - [download link](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- Clone the repository (download the repository to your file system)
+  - `git clone https://github.com/TomasMachan/app-public.git`
 
 ### Start in dev mode
 
