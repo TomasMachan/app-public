@@ -4,6 +4,25 @@ Liberty Profile is a flexible server profile of IBM's WebSphere Application Serv
 
 This repository contains the sample Java application. Below are the instructions how to start in locally and also how to build the container image and deploy it to the cloud (orchestration platform Openshift).
 
+- [Simple greeting service on Liberty Profile](#simple-greeting-service-on-liberty-profile)
+  - [Agenda](#agenda)
+  - [Run locally](#run-locally)
+    - [Start in dev mode](#start-in-dev-mode)
+    - [Package](#package)
+  - [Run in container locally](#run-in-container-locally)
+    - [Build an application image](#build-an-application-image)
+    - [Run a container](#run-a-container)
+  - [Run in container on cloud](#run-in-container-on-cloud)
+  - [Endpoints](#endpoints)
+  - [Environment variables](#environment-variables)
+
+## Agenda
+
+1. **Cloud computing** - [open-source learning](https://www.javatpoint.com/introduction-to-cloud-computing)
+1. **Running applications in cloud** - in previous article, section `Types of Cloud Services`
+1. **Orchestration applications** - [RedHat learning](https://www.redhat.com/en/topics/automation/what-is-orchestration) + [Kubernetes learning](https://kubernetes.io/docs/concepts/overview/)
+1. **Showcase of Java application deployment on Openshift cluster**
+
 ## Run locally
 
 - Prerequisites
