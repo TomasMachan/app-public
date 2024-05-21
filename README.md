@@ -15,6 +15,7 @@ This repository contains the sample Java application. Below are the instructions
   - [Run in container on cloud](#run-in-container-on-cloud)
   - [Endpoints](#endpoints)
   - [Environment variables](#environment-variables)
+  - [Alternative learning](#alternative-learning)
 
 ## Agenda
 
@@ -126,3 +127,7 @@ The `/greetings` endpoint is accessible at `http://<host>:<port>/api/greetings`
 | Env         | Description                        | Default value                          |
 | ----------- | ---------------------------------- | -------------------------------------- |
 | `GREETINGS` | A list of greetings divided by ";" | `(You did not specify any greetings.)` |
+
+## Alternative learning
+
+The code above deployed the application in manual way by building the container, stored it in image repository etc. There are different approached like S2I (Source-to-Image), where application can be deployed from version control platform like GitHub by specifying which language to use (eg. `Java`) and other details of deployment wanted. Learning path can be found under this [link](https://developers.redhat.com/learn/java/how-deploy-java-application-kubernetes-minutes) and estimated time is 30 - 45min.
