@@ -56,6 +56,8 @@ cd app
 ```bash
 # export BASE_IMAGE=icr.io/appcafe/websphere-liberty:23.0.0.6-kernel-java8-openj9-ubi
 export BASE_IMAGE=icr.io/appcafe/open-liberty:full-java8-openj9-ubi
+# start podman
+podman machine start
 # a build with online access to a feature repository
 podman build --platform=linux/amd64 -t greeting:latest --build-arg BASE_IMAGE=$BASE_IMAGE .
 
